@@ -275,10 +275,100 @@ h1 span{
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+    font-weight: 600;
     padding: 20px 30px;
     
 }
 .section4:hover{
+    background: #2C1762;
+    background-image: linear-gradient(to right, #2c1762, #2c1762, #ff0475);
+    cursor: pointer;
+    transform: translateX(3%);
+    transition: 0.5s all;
+}
+
+/* SECTION5 STYLING */
+.section5{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.section5-content{
+    display: flex;
+}
+.section5-left{
+    width: 45%;
+    margin-left: 70px;
+}
+.section5-right{
+    width: 300px;
+}
+.section5-left h2{
+    font-size: 40px;
+    color: #2C1762;
+    padding-bottom: 10px;
+    
+}
+.section5-left p{
+    line-height: 1.8;
+    font-size: 20px;
+    color: #5A617C;
+}
+.section5-img1 img{
+    /* margin-left: 300px; */
+    position: absolute;
+    top: -15px;
+    left: 80%;
+    width: 130px;
+    height: 130px;
+    padding-top: 70px;
+}
+.section5-img2 img{
+    position: absolute;
+    top: 80px;
+    left: 61%;
+    /* margin-top: -80px; */
+    /* margin-left: 100px; */
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 0 #ff0475;
+}
+.section5-img3 img{
+    position: absolute;
+    top: 230px;
+    left: 66%;
+    width: 180px;
+    height: 103px;
+}
+
+.more-loan{
+    margin-top: 30px;
+    width: 250px;
+    background: #ff0475;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.more-loan a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 15px;
+
+    /* width: 350px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    background: #ff0475;
+    padding: 20px 30px;
+    border-radius: 10px; */
+
+}
+.more-loan:hover{
     background: #2C1762;
     background-image: linear-gradient(to right, #2c1762, #2c1762, #ff0475);
     cursor: pointer;
